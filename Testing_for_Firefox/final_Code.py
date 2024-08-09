@@ -1,10 +1,4 @@
 
-# Hi sir this is Rohith H and just graduated from PES University under Computer Science Engineering degree  in 2024
-# This is the continuation of the previous video where we did for chrome and now we will be doing it for the firefox
-# The urls and the resolutions are given below
-
-
-
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.firefox.service import Service as FirefoxService
@@ -20,11 +14,11 @@ import logging
 def get_webdriver(browser):
     if browser == 'chrome':
         options = webdriver.ChromeOptions()
-        options.add_argument("--headless")  # Run in headless mode
+        options.add_argument("--headless")
         driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
     elif browser == 'firefox':
         # options = webdriver.FirefoxOptions()
-        # options.add_argument("--headless")  # Run in headless mode
+        # options.add_argument("--headless")  
         driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
     else:
         raise ValueError("Unsupported browser!")
@@ -101,11 +95,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-# now we will run the code
-# now in this we are running without headless mode so that there will be some kind of differentiation between chrome and firefox
-
-# It is quite similar to the chrome but in this we are using firefox that is the only difference
-
-#  as u can see from the left side we have done the testing for all the 5 websites and for all resolutions
-
-# Thanks You
