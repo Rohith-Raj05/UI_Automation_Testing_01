@@ -94,5 +94,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# thank you and i will be making the seperate video for the firefox browser
 
