@@ -1,10 +1,4 @@
 
-# Hi sir this is Rohith H and just graduated from PES University under Computer Science Engineering degree  in 2024
-# In this I am demonstrating the First Question of Automation Test 01 UI Testing and this is for the chrome browser
-# The urls and the resolutions are given below
-
-
-
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.firefox.service import Service as FirefoxService
@@ -99,18 +93,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# now we will run the code
-# it will run for all the urls and all the resolutions and saves the file as seen here 
-# u can see in the terminal that as the screenshot is saved it prints out the log message
-
-
-# u can see from the left thing here it is saving all the images / screenshots based on the url and it is able to seperate and store based on the time stamp
-
-# now url 3
-# it was able to take screenshot of all the given url one by one and saving it on its particular folder as mentioned
-
-# it is going one by one and taking screenshots of all of them
 
 # thank you and i will be making the seperate video for the firefox browser
 
